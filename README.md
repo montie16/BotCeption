@@ -3,18 +3,7 @@ Howdy! Please ensure that python is fully updated on the machine running this co
 To run our Tweet Based Text Classifier please enter this command:
 python tweet_class.py
 
-To Run our Twitter User Dump File please enter this command:
-./twdump \
-    --consumer-key "hMvHrXn5lueJkkK021fsIbmli" \
-    --consumer-secret "bJNKLtg3JcgcqpbDnGoMraDSWGI27H4YTXcsu0tnm9ZA86ZRyn" \
-    --oauth-token "2887902374-JP4nLlMaaKNGWPbYFvRm0l9KXmLRFuZ37RrPLyT" \
-    --oauth-key "DK5n44aqBK1hK7Kw5WMNWrmN2Oa0RposGWR6kaBPgNzdr" \
-    Botception
-
-The twdump project was found here: https://github.com/valeriangalliat/twdump and needs the following libraries installed with Python 3 or higher.
-  configobj
-  docopt
-  twitter
+We have replaced the twitter user dump program with one that does not require each individual users tokens and keys, the only drawback is that now we can only pull up to 200 tweets instead of 3200, but that should still be sufficient to analyze a users account. This will also run on Python2.7.8 and does not require and additional packages from the ones we used for this class.
   
 This will be able to be used with any user account once logged in through our website.
 The website has been added to this github, because this Will be our page used to display botor not message.
