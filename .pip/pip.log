@@ -1,5 +1,5 @@
 ------------------------------------------------------------
-/usr/bin/pip run on Wed Nov 19 01:14:55 2014
+/usr/local/bin/pip run on Tue Dec  2 00:19:52 2014
 Downloading/unpacking cjson
   Getting page https://pypi.python.org/simple/cjson/
   Could not fetch URL https://pypi.python.org/simple/cjson/: 404 Client Error: Not Found
