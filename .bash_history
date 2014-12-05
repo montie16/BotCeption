@@ -247,3 +247,35 @@ cd
 python tweet_classy.py 
 clear
 python tweet_classy.py 
+clear
+python tweet_classy.py 
+clear
+python tweet_classy.py 
+clear
+python tweet_classy.py 
+clear
+python tweet_classy.py 
+clear
+python tweet_classy.py 
+git commit -m "The train/test"
+git push
+clear
+git push -u origin master
+clear
+git commit -m "training wheels"
+git commit -a
+clear
+git add
+git add .
+git commit -m "training wheels"
+git push -u origin master
+git push upstream upstreammaster:master
+clear
+git pull 
+git pull upstream master
+git push -u origin master
+clear
+python tweet_classy.py 
+clear
+python tweet_classy.py 
+clear

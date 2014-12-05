@@ -64,7 +64,61 @@ train = [
     ('I love to eat so much food','pos'),
     ('Merry Christmas to everyone','pos'),
     ('Hope you have a wonderful day today, because I am','pos'),
-    ('I hate when people ignore me','pos')
+    ('I hate when people ignore me','pos'),
+    ('I got so trashed last night','pos'),
+    ('Got a girls number last night','pos'),
+    ('The bar was super packed','pos'),
+    ('it was such a great time', 'pos'),
+    ('Follow me and Ill follow you back','neg'),
+    ('#follow','neg'),
+    ('Im laughing so hard at this right now tinyurl.com/','neg'),
+    ('Do u ever','neg'),
+    ('You want 2','neg'),
+    ('RT @username: I LOL at this so much','neg'),
+    ('RT @username: I had a great time last night', 'pos'),
+    ('vine.co','neg'),
+    ('That goal was sick! vine.co','pos'),
+    ('This video was so hilarious when I found it vine.co','pos'),
+    ('RT @username: come check out my page','neg'),
+    ('Learn the secrets behind looking leaner','neg'),
+    ('Get muscular in just 30 days','neg'),
+    ('follw me please','neg'),
+    ('I got high as a kite last night','pos'),
+    ('How I met your mother is the best show ever','pos'),
+    ('SOA was insane','pos'),
+    ('SOA I cant believe that just happened','pos'),
+    ('Check out Kim kardashians new look','neg'),
+    ('Check out this celebrities new look','neg'),
+    ('I hate doing math homework, but I like procrastinating','pos'),
+    ('I hear people running around above me','pos'),
+    ('Find out the new "in" look','neg'),
+    ('Where is waldo','pos'),
+    ('RT @username: what do you think of this page?','neg'),
+    ('I had a great time gonig out with some awesome friends','pos'),
+    ('Getting too turnt','pos'),
+    ('#drunk','pos'),
+    ('#crazy #randomcrap','pos'),
+    ('Its time to party hard!','pos'),
+    ('what r u doing','pos'),
+    ('come find ur favorite celebrity','neg'),
+    ('u 2 can become lean','neg'),
+    ('Lost my phone last night','pos'),
+    ('That girl last night looked so Ratchet','pos'),
+    ('Porn Star "Vicky Pattison" reveals how she went from Ratchet to Fantastic','neg'),
+    ('Turn from Ratchet to Fantastic','neg'),
+    ('check out this sick picture from last night out bit.ly','pos'),
+    ('bit.ly','neg'),
+    ('The most funny sex selfies bit.ly','neg'),
+    ('@username: has some of the funniest tweets ever','neg'),
+    ('Holy crap @username that was so hilarious','pos'),
+    ('How to increase your breast size in a matter of weeks','neg'),
+    ('Let it go, let it go! Frozen','pos'),
+    ('@username check out this funny ass video www.youtube.com','pos'),
+    ('I had sex with someone last night','pos'),
+    ('Ways to improve sex','neg'),
+    ('sex positions','neg'),
+    ('Movie night with Bae','pos'),
+    ('That was such a great movie last night #Legit #Action','pos')
 ]
 test = [
     ('The beer was good.', 'pos'),
@@ -85,14 +139,33 @@ test = [
     ('This is so Adorable pic.twitter.com','neg'),
     ('hello world','neg'),
     ('Wanna know the secret to looking sexier in just 30 days?','neg'),
-    ('5 Steps to gain followers quickly','neg')
+    ('5 Steps to gain followers quickly','neg'),
+    ('@username, want to go play soccer?','pos'),
+    ('Dude @username lets go grab a few drinks','pos'),
+    ('Last nights game was amazing I scored 2 goals','pos'),
+    ('Did you find your phone?','pos'),
+    ('I had one of the best workouts today','pos'),
+    ('Check out this vine.co 2 funny','neg'),
+    ('The secret to losing weight in just 30 days','neg'),
+    ('I will follow the next 100 to follw me','neg'),
+    ('I am not a robot','neg'),
+    ('RT @username: thanks for the foolow','neg'),
+    ('This goal was sick vine.co','pos'),
+    ('This was the most hilarious fail Ive ever seen www.youtube.com','pos'),
+    ('Click here to see a secret weight loss technique you wont want to miss','neg'),
+    ('Last night was awesome #drunk #tooturnt #turnup','pos'),
+    ('Ways to boose your sex drive','neg'),
+    ('How to pleasure your women the right way','neg'),
+    ('Clcik this link to see crazy sex positions','neg'),
+    ('Dude that chick I had sex with last night was a babe','pos')
 ]
 
 c1 = NaiveBayesClassifier(train)
 
-print(c1.classify("I went out with friends last night"))
-print(c1.classify("How to lose weight."))
+print(c1.classify("@16Montie wanna go kick a ball?"))
+print(c1.classify("Come look at how to lose weight fast"))
 print(c1.classify("Lose weight fast"))
+print(c1.classify("How can I achieve more followers?"))
 
 blob = TextBlob("Check out this website, it can show you how to lose weight "
                     "while eating pancakes.", classifier=c1)
