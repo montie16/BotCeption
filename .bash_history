@@ -279,3 +279,21 @@ python tweet_classy.py
 clear
 python tweet_classy.py 
 clear
+git commit -m "training wheels2"
+git pull upstream master
+git push -u origin master
+git commit -m "training wheels2"
+git add .
+git commit -m "training wheels2"
+clear
+python tweet_classy.py 
+clear
+python tweet_classy.py 
+clear
+python tweet_classy.py 
+clear
+python tweet_classy.py 
+clear
+python tweet_classy.py 
+clear
+python tweet_classy.py 
