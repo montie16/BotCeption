@@ -297,3 +297,6 @@ clear
 python tweet_classy.py 
 clear
 python tweet_classy.py 
+git add .
+git commit -m "300 train set 50 test"
+python tweet_classy.py 
