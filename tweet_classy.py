@@ -850,7 +850,8 @@ print(c1.classify("How can I achieve more followers?"))
 print
 
 
-#stuff = raw_input('please type in Tweet ')
+#stuff = raw_input('please type in Tweet
+#blob = TextBlob(stuff,classifier=c1)
 blob = TextBlob("Dude @ndy318 wanna go grab a drink, or ten #drunk.", classifier=c1)
 
                     
