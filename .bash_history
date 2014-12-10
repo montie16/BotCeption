@@ -300,3 +300,168 @@ python tweet_classy.py
 git add .
 git commit -m "300 train set 50 test"
 python tweet_classy.py 
+git add .
+git commit -m "400 train"
+montie16
+clear
+python tweet_classy.py 
+clear
+git pull upstream master
+git push -u origin master
+git pull upstream master
+git add .
+git push -u origin master
+
+python tweet_classy.py 
+clear
+python tweet_classy.py 
+clearclear
+clear
+python json_parse.py 
+clear
+python json_parse.py 
+clear
+python tweet_classy.py 
+python FeedParse.py 16montie 200
+python FeedParse.py @16montie 200
+clear
+python FeedParse.py botception 200
+python FeedParse.py botception
+clear
+python FeedParse.py botception_TwitterFeed.json 
+python FeedParse.py botception_TwitterFeed.json 200
+clear
+pytho
+clear
+python FeedParse.py 16Montie
+python FeedParse.py 16Montie 100
+python FeedParse.py 16Montie 200
+clear
+python FeedParse.py 16Montie 200
+clear
+python tweet_classy.py 
+clear
+python tweet_classy.py 
+clear
+python tweet_classy.py 
+clear
+python tweet_classy.py 
+clear
+python json_parse.py 
+clear
+python json_parse.py 
+clear
+python json_parse.py 
+clear
+python json_parse.py 
+clear
+python FeedParse.py BotCeption 200
+clear
+ls
+clear
+python json_parse.py 
+clear
+python json_parse.py 
+rm -r ~/.cache/jedi
+clear
+sudo apt-get M-x jedi:install-server
+clear
+python json_parse.py 
+clear
+python json_parse.py 
+ls
+clear
+ls
+clear
+python json_parse.py 
+clear
+python json_parse.py 
+clear
+python json_parse.py 
+clear
+python json_parse.py 
+clear
+python json_parse.py 
+clear
+python json_parse.py 
+clear
+python json_parse.py 
+clear
+python json_parse.py 
+clear
+python json_parse.py 
+clear
+python json_parse.py 
+clear
+python json_parse.py 
+clear
+python json_parse.py 
+clear
+python json_parse.py 
+clear
+python json_parse.py 
+clear
+python json_parse.py 
+python json_parse.py 
+clear
+python json_parse.py 
+clear
+python json_parse.py 
+clear
+python json_parse.py 
+clear
+python json_parse.py 
+clear
+python json_parse.py 
+python FeedParse.py BotCeption 200
+python FeedParse.py BotCeption 200
+clear
+python FeedParse.py BotCeption 200
+clear
+python FeedParse.py BotCeption 200
+ls
+clear
+python FeedParse.py BotCeption 200
+clear
+python FeedParse.py BotCeption 200
+python
+clear
+python tweet_classy.py 
+clear
+python tweet_classy.py 
+clear
+python tweet_classy.py 
+clear
+python test.py 
+clear
+python tweet_classy.py 
+clear
+python tweet_classy.py 
+python tweet_classy.py 
+clear
+python tweet_classy.py 
+clear
+python tweet_classy.py 
+python tweet_classy.py 
+clear
+python tweet_classy.py 
+clear
+python tweet_classy.py 
+clear
+python tweet_classy.py 
+clear
+python tweet_classy.py 
+clear
+python tweet_classy.py 
+python tweet_classy.py 
+Cav is reading this text now
+clear
+python tweet_classy.py 
+clear
+python tweet_classy.py 
+python tweet_classy.py 
+clear
+python tweet_classy.py 
+python tweet_classy.py 
+clear
+python tweet_classy.py 

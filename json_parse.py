@@ -1,6 +1,7 @@
-import json
-from pprint import pprint
+import re
 
-with open('botception_TwitterFeed.json') as data_files:
-    data = json.load(data_files)
-pprint(data)
+shakes = open("BotCeption_TwitterFeed.json", "r")
+
+for line in shakes:
+    if re.match("where", line):
+        print line
