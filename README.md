@@ -7,3 +7,18 @@ We have replaced the twitter user dump program with one that does not require ea
   
 This will be able to be used with any user account once logged in through our website.
 The website has been added to this github, because this Will be our page used to display botor not message.
+
+With our final Commit we use our classifier which was hand typed at 750 training data and 75 testing data where neg will return bot and pos will be a human based tweet, you can uncomment 
+
+#stuff = raw_input('please type in Tweet
+#blob = TextBlob(stuff,classifier=c1)
+
+This will allow any user to input a tweet and then with the Accuracy of 85% will be able to judge wheater a tweet is either a human related or bot related
+
+You must have Tweepy installed for our Feedparser.py
+Must have both TextBlot and NLTK for oru tweet_class.py
+
+pip install -U textblob
+python -m textblob.download_corpora
+
+Our UI wasnt able to draw in our python script, because we used people.tamu.edu and it didnt work with PHP or JQuery
